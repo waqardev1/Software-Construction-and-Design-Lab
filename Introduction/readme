@@ -1,0 +1,112 @@
+SOFTWARE CONSTRUCTION AND DEVELOPMENT - LAB ( SESD3241-S24-BS-SE-F21-R4 )
+Course Requirement:
+
+The goal of this course is for students to acquire an understanding of the principles for developing a software solution to a problem, and learn about the current practices.
+The course includes study of related current processes for developing software, using formal languages and an insight into the software modeling and construction.
+The students will understand the role of design and its major activities within the object oriented software development process, with focus on the unified process.
+The students will learn to develop object oriented design models and refine them to reflect implementation details. They will also implement design model using object-oriented programming.
+Course Objectives:
+
+In this course the students will be able to understand and implement principles and concepts involved in the construction and development of software systems.
+
+Methodology:
+
+Lab mannuals, class activities, graded labs and project 
+
+Learning Outcome:
+
+CLO 1: Demonstrate the implementation of concepts and practices related to software construction
+
+More Information:
+Recommended Text Books:
+Sr No.	Title	Authors	Edition	Publisher	Year	Description
+1	Code Complete: A Practical Handbook of Software Construction	Steve Macconnell	2nd edition	Microsoft publisher	2004	
+Recommended Reference Books:
+Sr No.	Title	Authors	Edition	Publisher	Year	Description
+No Suggested Reference Book
+Recommended Web Resources:
+Sr No.	URL	Description
+No Suggested Web Resource
+Assessment and Evaluation:
+Assessment Type	Weightage %	Consider Top
+Lab	25.0	0
+Mid Term	20.0	0
+Project-Presentation	10.0	0
+Class Participation	5.0	0
+Final Term	40.0	0
+Calendar of Activities:
+Week No	Week Contents	Activity	Files	Download
+1	
+Revision of UML diagrams
+
+Revisiting uml from SDA course	No File	
+2	
+Writing requirements and creating class design
+
+Writing requirements and creating class design	No File	
+3	
+Translating design into source code
+
+Translating design into source code	No File	
+4	
+  Explanation of Azure DevOps key components: Boards, Repos, Pipelines, Test Plans, and Artifacts. Creating an Azure DevOps account Configuring basic account settings and organization details Creating a new project within Azure DevOps. Inviting team members to the project.
+
+Azure DevOps as Application Lifecyle Management (ALM) Tool	No File	
+5	
+Identifying code smells in provided code 
+
+Code refactoring	No File	
+6	
+Refactor the code using the techniques introduced in theory lecture
+
+Code refactoring	No File	
+7	
+ Configuring User Information Basic Commands of Git (init, add, commit etc) using git bash.
+
+Installing git	No File	
+8		Revision	No File	
+9	
+Branch Creation and Switching
+Committing Changes in the created branch
+Branch Visualization using “log” command
+Merging Branches
+Conflict Resolution
+
+Branching	No File	
+10	
+Cloning a Repository using “git clone”
+Pushing Changes to GitHub using “git push”
+Pulling Changes from GitHub
+Create branches for new features or bug fixes.
+Setting Up a Remote Repository
+Remote Repositories and Collaborative Development	No File	
+11	
+Create pull requests for branch merges on GitHub
+review and approve pull requests
+provide feedback using GitHub's review tools
+code reviews	No File	
+12	
+Introduction to Azure DevOps Pipelines/ GitHub Actions.
+Creating a new CI pipeline for the project.
+Defining pipeline settings and configuration.
+Configuring build and test steps within the CI pipeline.
+Triggering a build and observing the results.
+Exploring build logs and test reports.
+Setting Up CI/CD Pipelines	No File	
+13	
+Automating the build process using build tools
+Integrating unit tests in the build process
+Extending the CI pipeline for CD purposes
+Configuring deployment to a testing or staging environment
+CI/CD of the sample/provided application (a web or even a consoled based application in C++)
+Setting Up CI/CD Pipelines	No File	
+14	
+Project Presentation/Viva
+
+Project Presentation/Viva	No File	
+15	
+Project Presentation/Viva
+
+Project Presentation/Viva	No File	
+16	
+revision 
