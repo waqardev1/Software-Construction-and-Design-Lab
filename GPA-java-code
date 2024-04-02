@@ -1,0 +1,253 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.Scanner;  
+
+class HelloWorld {
+    public static void main(String[] args) {
+         System.out.println("******Semester 1******* \n");
+        Scanner sc=new Scanner(System.in);  
+        int AssignmentsSize = 4;
+        int Assignments[] = new int[AssignmentsSize];
+        for(int i=0;i<AssignmentsSize;i++)
+        {
+            System.out.println("Enter Marks for Assignment " + (i+1));
+            Assignments[i] = sc.nextInt();  
+        }
+        
+        for(int i=0;i<AssignmentsSize;i++)
+        {
+            System.out.println("Assignment " + (i+1) + " marks " + Assignments[i]);  
+        }
+        double AssignmentScore;
+        int AssSum = 0;
+        for(int i=0;i<AssignmentsSize;i++)
+        {
+            AssSum +=Assignments[i];
+        }
+        AssignmentScore = AssSum/4;
+        System.out.println("Total Assignment Score " + AssignmentScore); 
+        //Quizez
+        int QuizSize = 4;
+        int Quiz[] = new int[QuizSize];
+        for(int i=0;i<QuizSize;i++)
+        {
+            System.out.println("Enter Marks for Quiz " + (i+1));
+            Quiz[i] = sc.nextInt();  
+        }
+        
+        for(int i=0;i<QuizSize;i++)
+        {
+            System.out.println("Quiz " + (i+1) + " marks " + Quiz[i]);  
+        }
+        double QuizScore;
+        int QuizSum = 0;
+        for(int i=0;i<QuizSize;i++)
+        {
+            QuizSum +=Quiz[i];
+        }
+        QuizScore = QuizSum/4;
+        System.out.println("Total Quiz Score " + QuizScore); 
+        //CP
+        int CpSize = 2;
+        int CP[] = new int[CpSize];
+        for(int i=0;i<CpSize;i++)
+        {
+            System.out.println("Enter Marks for CP " + (i+1));
+            CP[i] = sc.nextInt();  
+        }
+        
+        for(int i=0;i<CpSize;i++)
+        {
+            System.out.println("CP " + (i+1) + " marks " + CP[i]);  
+        }
+        double CPScore;
+        int CPSum = 0;
+        for(int i=0;i<CpSize;i++)
+        {
+            CPSum +=Quiz[i];
+        }
+        CPScore = CPSum/2;
+        System.out.println("Total CP Score " + CPScore); 
+        //Mids
+        int mid;
+        System.out.println("Enter Mid term marks : ");
+        mid = sc.nextInt();
+        System.out.println(" Mid term marks : " + mid);
+        double midScore;
+        midScore = mid;
+        System.out.println(" Mid term marks : " + midScore);
+        int Final;
+        System.out.println("Enter Final term marks : ");
+        Final = sc.nextInt();
+        double FinalScore;
+        FinalScore = Final;
+        System.out.println(" FinalScore : " + FinalScore);
+        double TermScore;
+        TermScore = (((20*AssignmentScore)/100)+((20*QuizScore)/100)+((10*CPScore)/100)+((20*midScore)/100)+((30*FinalScore)/100));
+        System.out.println("Term Score : " + TermScore );
+        double Term1Score = TermScore;
+        String Sem1Grade;
+        if(TermScore>=95)
+        {
+            Sem1Grade = "A+";
+            System.out.println("Grade : A+");
+        } else if(TermScore>=92)
+        {
+            Sem1Grade = "A";
+            System.out.println("Grade : A");
+        } else if(TermScore>=88)
+        {
+            Sem1Grade = "B+";
+            System.out.println("Grade : B+");
+        } else if(TermScore>=83)
+        {
+            Sem1Grade = "B";
+            System.out.println("Grade : B");
+        } else if(TermScore>=80)
+        {
+            Sem1Grade = "B-";
+            System.out.println("Grade : B-");
+        } else if(TermScore>=77)
+        {
+            Sem1Grade = "C+";
+            System.out.println("Grade : C+");
+        } else if(TermScore>=73)
+        {
+            Sem1Grade = "C";
+            System.out.println("Grade : C");
+        } else if(TermScore>=70)
+        {
+            Sem1Grade = "C-";
+            System.out.println("Grade : C-");
+        } else if(TermScore>=65)
+        {
+            Sem1Grade = "D+";
+            System.out.println("Grade : D+");
+        } else if(TermScore>=60)
+        {
+            Sem1Grade = "D";
+            System.out.println("Grade : D");
+        } else if(TermScore<60)
+        {
+            Sem1Grade = "F";
+            System.out.println("Grade : F");
+        }
+         System.out.println("******Semester 2******* \n");
+         for(int i=0;i<AssignmentsSize;i++)
+        {
+            System.out.println("Enter Marks for Assignment " + (i+1));
+            Assignments[i] = sc.nextInt();  
+        }
+        
+        for(int i=0;i<AssignmentsSize;i++)
+        {
+            System.out.println("Assignment " + (i+1) + " marks " + Assignments[i]);  
+        }
+         AssSum = 0;
+        for(int i=0;i<AssignmentsSize;i++)
+        {
+            AssSum +=Assignments[i];
+        }
+        AssignmentScore = AssSum/4;
+        
+        //
+        for(int i=0;i<QuizSize;i++)
+        {
+            System.out.println("Enter Marks for Quiz " + (i+1));
+            Quiz[i] = sc.nextInt();  
+        }
+        
+        for(int i=0;i<QuizSize;i++)
+        {
+            System.out.println("Quiz " + (i+1) + " marks " + Quiz[i]);  
+        }
+        QuizSum = 0;
+        for(int i=0;i<QuizSize;i++)
+        {
+            QuizSum +=Quiz[i];
+        }
+        QuizScore = QuizSum/4;
+        System.out.println("Total Quiz Score " + QuizScore); 
+        
+        for(int i=0;i<CpSize;i++)
+        {
+            System.out.println("Enter Marks for CP " + (i+1));
+            CP[i] = sc.nextInt();  
+        }
+        
+        for(int i=0;i<CpSize;i++)
+        {
+            System.out.println("CP " + (i+1) + " marks " + CP[i]);  
+        }
+         CPSum = 0;
+        for(int i=0;i<CpSize;i++)
+        {
+            CPSum +=Quiz[i];
+        }
+        CPScore = CPSum/2;
+        System.out.println("Total CP Score " + CPScore); 
+        System.out.println("Enter Mid term marks : ");
+        mid = sc.nextInt();
+        System.out.println(" Mid term marks : " + mid);
+        midScore = mid;
+        System.out.println(" Mid term marks : " + midScore);
+       
+        System.out.println("Enter Final term marks : ");
+        Final = sc.nextInt();
+       
+        FinalScore = Final;
+        System.out.println(" FinalScore : " + FinalScore);
+      
+        TermScore = (((20*AssignmentScore)/100)+((20*QuizScore)/100)+((10*CPScore)/100)+((20*midScore)/100)+((30*FinalScore)/100));
+        System.out.println("Term Score : " + TermScore );
+        double Term2Score = TermScore;
+        String Sem2Grade;
+        if(TermScore>=95)
+        {
+            Sem2Grade = "A+";
+            System.out.println("Grade : A+");
+        } else if(TermScore>=92)
+        {
+            Sem2Grade = "A";
+            System.out.println("Grade : A");
+        } else if(TermScore>=88)
+        {
+            Sem2Grade = "B+";
+            System.out.println("Grade : B+");
+        } else if(TermScore>=83)
+        {
+            Sem2Grade = "B";
+            System.out.println("Grade : B");
+        } else if(TermScore>=80)
+        {
+            Sem2Grade = "B-";
+            System.out.println("Grade : B-");
+        } else if(TermScore>=77)
+        {
+            Sem2Grade = "C+";
+            System.out.println("Grade : C+");
+        } else if(TermScore>=73)
+        {
+            Sem2Grade = "C";
+            System.out.println("Grade : C");
+        } else if(TermScore>=70)
+        {
+            Sem2Grade = "C-";
+            System.out.println("Grade : C-");
+        } else if(TermScore>=65)
+        {
+            Sem2Grade = "D+";
+            System.out.println("Grade : D+");
+        } else if(TermScore>=60)
+        {
+            Sem2Grade = "D";
+            System.out.println("Grade : D");
+        } else if(TermScore<60)
+        {
+            Sem2Grade = "F";
+            System.out.println("Grade : F");
+        }
+        
+        
+    }
+}
